@@ -1,5 +1,5 @@
 body{
-	background-color: purple; /* change this */
+	background-image: linear-gradient(to right, #DC143C,#F08080); /* change this */
 	margin:0;
 	padding:0;
 }
