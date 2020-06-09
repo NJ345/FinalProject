@@ -16,7 +16,7 @@ h1{
 
 }
 
-.quiz_wrapper{
+.container{
 	height: 400px;
 	width: 650px;
 	background-color: white; /* change this maybe */
@@ -25,7 +25,7 @@ h1{
 	padding: 35px;
 }
 
-.quiz_wrapper .question{
+.container .question{
 	padding: 15px;
 	background-color:pink;/* change this */
 	border-radius: 8px;
@@ -35,12 +35,12 @@ h1{
 	width: 100%;
 
 }
-.quiz_wrapper .options{
+.container .options{
 	float: left;
 	width: 100%;
 }
 
-.quiz_wrapper .options ul{
+.container .options ul{
 	list-style: none;
 	padding: 0px;
 	display: flex;
@@ -48,7 +48,7 @@ h1{
 	flex-wrap: wrap;
 }
 
-.quiz_wrapper .options ul li{
+.container .options ul li{
 	display: inline-block;
 	background-color:#9e9e9e; /* change this */
 	width: 47%;
@@ -63,31 +63,31 @@ h1{
 	text-align: center;
 }
 
-.quiz_wrapper .options ul li:active{
+.container .options ul li:active{
 	box-shadow: 0px 0px 0px transparent;
 }
-.quiz_wrapper .options ul li.correct{
+.container .options ul li.correct{
 	background-color: green;
 	box-shadow: 0px 3px 0px grey;
 }
 
-.quiz_wrapper .options ul li.wrong{
+.container .options ul li.wrong{
 	background-color: orange;
 	box-shadow: 0px 3px 0px grey;
 }
 
-.quiz_wrapper .score{
+.container .score{
 	float: left;
 	width: 100%;
 	padding: 25px 0px; 
 }
 
-.quiz_wrapper .score .next{
+.container .score .next{
 	width: 40%;
 	float: left;
 }
 
-.quiz_wrapper .score .next button{
+.container .score .next button{
 	padding: 15px 55px;
 	color: white; 
 	background-color: red; /* change this */
@@ -99,18 +99,18 @@ h1{
 	outline: none;
 }
 
-.quiz_wrapper .score .next button:active{
+.container .score .next button:active{
 	box-shadow: 0px 3px 0px transparent;
 
 }
 
 
-.quiz_wrapper .score .score-card{
+.container .score .score-card{
 	width: 60%;
 	float: left;
 
 }
-.quiz_wrapper .score .score-card{
+.container .score .score-card{
 font-size: 20px;
 color: black;
 line-height: 50px;
@@ -118,7 +118,7 @@ text-transform: uppercase;
 
 }
 
-.quiz_wrapper .score .score-card span{
+.container .score .score-card span{
 	background-color: blue; /* change this */
 	padding: 5px 20px;
 	border-radius: 8px;
