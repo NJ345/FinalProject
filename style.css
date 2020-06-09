@@ -1,0 +1,126 @@
+body{
+	background-color: purple; /* change this */
+	margin:0;
+	padding:0;
+}
+
+*{
+	box-sizing: border-box;
+	font-family: sans-serif;/* change this */
+}
+
+h1{
+	margin: 30px 0px -15px;
+	text-align: center;
+	color: #ffffff
+
+}
+
+.quiz_wrapper{
+	height: 400px;
+	width: 650px;
+	background-color: white; /* change this maybe */
+	margin:50px auto;
+	border-radius: 8px;
+	padding: 35px;
+}
+
+.quiz_wrapper .question{
+	padding: 15px;
+	background-color:pink;/* change this */
+	border-radius: 8px;
+	color:#ffffff;
+	font-size:20px;
+	float: left;
+	width: 100%;
+
+}
+.quiz_wrapper .options{
+	float: left;
+	width: 100%;
+}
+
+.quiz_wrapper .options ul{
+	list-style: none;
+	padding: 0px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.quiz_wrapper .options ul li{
+	display: inline-block;
+	background-color:#9e9e9e; /* change this */
+	width: 47%;
+	padding: 15px;
+	border-radius:8px;
+	margin-top: 25px;
+	font-size: 15px;
+	color:#ffffff;
+	box-shadow: 0px 3px 0px grey; /* change this color */
+	cursor: pointer;
+	outline: none;
+	text-align: center;
+}
+
+.quiz_wrapper .options ul li:active{
+	box-shadow: 0px 0px 0px transparent;
+}
+.quiz_wrapper .options ul li.correct{
+	background-color: green;
+	box-shadow: 0px 3px 0px grey;
+}
+
+.quiz_wrapper .options ul li.wrong{
+	background-color: orange;
+	box-shadow: 0px 3px 0px grey;
+}
+
+.quiz_wrapper .score{
+	float: left;
+	width: 100%;
+	padding: 25px 0px; 
+}
+
+.quiz_wrapper .score .next{
+	width: 40%;
+	float: left;
+}
+
+.quiz_wrapper .score .next button{
+	padding: 15px 55px;
+	color: white; 
+	background-color: red; /* change this */
+	border: none;
+	border-radius: 8px;
+	font-size: 18px;
+	cursor: pointer;
+	box-shadow: 0px 3px 0px #FF5645;
+	outline: none;
+}
+
+.quiz_wrapper .score .next button:active{
+	box-shadow: 0px 3px 0px transparent;
+
+}
+
+
+.quiz_wrapper .score .score-card{
+	width: 60%;
+	float: left;
+
+}
+.quiz_wrapper .score .score-card{
+font-size: 20px;
+color: black;
+line-height: 50px;
+text-transform: uppercase;
+
+}
+
+.quiz_wrapper .score .score-card span{
+	background-color: blue; /* change this */
+	padding: 5px 20px;
+	border-radius: 8px;
+	color:#ffffff;
+}
