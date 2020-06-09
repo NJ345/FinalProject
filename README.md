@@ -1,5 +1,5 @@
 # FinalProject
-To try out my quiz follow this [link to my quiz](https://nj345.github.io/FinalProject/).
+To try out my quiz follow this [link](https://nj345.github.io/FinalProject/).
 
 To restart the quiz simply refresh the page.
 
